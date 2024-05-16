@@ -1,8 +1,7 @@
 # txtscrpr
-<a href="https://twitter.com/DominicWalliman/status/1522525405391036427/photo/1">
-  <img src="./assets/engineering.jpeg" alt="txtscrpr" width="500" height="500">
-</a>
+
 <img src="./assets/folders.png" alt="Folders" width="300" height="440">
+
 ## Purpose
 Instead of buying my friend an expensive hardcopy textbook for his birthday, I thought it would be a good idea to write a script that would scrape 1500 textbook pdfs from the internet. This way, he can have access to a wide range of textbooks for free. Lots of other people liked the motivation behind this and wants a way to reproduce the ~15GB of textbooks. So, I decided to make this repo public.
 
@@ -21,6 +20,7 @@ Feel free to edit `topics.json` to include/change/delete more topics and subtopi
 
 ## Extra
 I plan on adding advanced features to this repo (eg. chatting with textbooks via RAG networks, summarizing textbooks, etc.). If you have any ideas, feel free to open an issue or reach out to me. (links at the bottom)
+
 [Map of Engineering](https://twitter.com/DominicWalliman/status/1522525405391036427/photo/1)
 Credit goes to *Domain of Science* for the cover image (map of engineering).
 
