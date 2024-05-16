@@ -1,5 +1,8 @@
-# txtscrpr[![txtscrpr](./assets/engineering.jpeg)](https://twitter.com/DominicWalliman/status/1522525405391036427/photo/1)
-![Folders](./assets/folders.png)
+# txtscrpr
+<a href="https://twitter.com/DominicWalliman/status/1522525405391036427/photo/1">
+  <img src="./assets/engineering.jpeg" alt="txtscrpr" width="400" height="300">
+</a>
+<img src="./assets/folders.png" alt="Folders" width="400" height="300">
 ## Purpose
 Instead of buying my friend an expensive hardcopy textbook for his birthday, I thought it would be a good idea to write a script that would scrape 1500 textbook pdfs from the internet. This way, he can have access to a wide range of textbooks for free. Lots of other people liked the motivation behind this and wants a way to reproduce the ~15GB of textbooks. So, I decided to make this repo public.
 
