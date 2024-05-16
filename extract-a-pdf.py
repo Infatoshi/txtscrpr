@@ -38,6 +38,6 @@ def process_directory(directory):
 
 if __name__ == "__main__":
     # base_directory = input("Enter the path to the directory: ")
-    base_directory = "/Users/elliotarledge/Desktop/05-04-2024/a long long time ago in a galaxy far far away/Crystal Fucking Meth/topics"
+    base_directory = "/Users/elliotarledge/Desktop/05-04-2024/a long long time ago in a galaxy far far away/txtbooks/topics"
     process_directory(base_directory)
 
