@@ -8,7 +8,7 @@ import os
 
 # Initialize WebDriver
 driver = webdriver.Chrome()
-first_n_results = 5
+first_n_results = 3
 
 def init_directories(topics):
     for topic in topics:
