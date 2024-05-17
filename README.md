@@ -7,7 +7,10 @@ If you wake up and feel like attempting to master every topic ever, this repo is
 
 Instead of buying my friend an expensive hardcopy textbook for his birthday, I thought it would be a good idea to write a script that would scrape 1500 textbook pdfs from the internet. This way, he can have access to a wide range of textbooks for free. Lots of other people liked the motivation behind this and wants a way to reproduce the ~15GB of textbooks. So, I decided to make this repo public.
 
-## How to use
+## How to use (python version >= 3.8)
+
+**Linux / MacOS**
+
 ```
 git clone https://github.com/Infatoshi/txtscrpr.git
 cd txtscrpr
@@ -16,6 +19,18 @@ source venv/bin/activate
 pip install -r requirements.txt
 python main.py
 ```
+
+**Windows**
+
+```
+git clone https://github.com/Infatoshi/txtscrpr.git
+cd txtscpr
+python -m venv venv
+"./venv/Scripts/activate"
+pip install -r requirements.txt
+python main.py
+```
+
 Expect roughly 15GB of textbooks to be downloaded to the `topics` directory.
 The variable `first_n_results` in main.py can be adjusted. For example, setting `first_n_results = 10` will download the first 10 textbooks from the internet in each subtopic within each topic.
 Feel free to edit `topics.json` to include/change/delete more topics and subtopics. It should give you an idea about the topics and subtopics structure.
