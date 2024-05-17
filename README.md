@@ -24,7 +24,7 @@ python main.py
 
 ```
 git clone https://github.com/Infatoshi/txtscrpr.git
-cd txtscpr
+cd txtscrpr
 python -m venv venv
 "./venv/Scripts/activate"
 pip install -r requirements.txt
