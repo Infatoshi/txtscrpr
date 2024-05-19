@@ -51,3 +51,15 @@ Credit goes to *Domain of Science* for the cover image (map of engineering).
 - [Website](https://elliotarledge.com)
 - Email - `elliot@arledge.net`
 - Schedule a meeting with me [here](https://calendly.com/elliot-ayxc/60min)
+
+## Future Ideas
+
+- https://commons.wikimedia.org/wiki/Main_Page - search in the top right and then select "Other Media"  for example: https://commons.wikimedia.org/w/index.php?search=psychology&title=Special:MediaSearch&go=Go&type=other
+
+- https://annas-archive.org/ - massive collection of books and papers
+
+- https://sci-hub.se/ is also good if you have a DOI of a scientific paper you're trying to track down
+
+- implement RAG to chat with textbooks
+
+- use tools like GPT4o to extract highest quality pieces of information from textbooks for other use cases
