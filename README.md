@@ -7,6 +7,8 @@ If you wake up and feel like attempting to master every topic ever, this repo is
 
 Instead of buying my friend an expensive hardcopy textbook for his birthday, I thought it would be a good idea to write a script that would scrape 1500 textbook pdfs from the internet. This way, he can have access to a wide range of textbooks for free. Lots of other people liked the motivation behind this and wants a way to reproduce the ~15GB of textbooks. So, I decided to make this repo public.
 
+I should add that you can't "master" each topic without the external tools the subject is based on. You need to get familiar and practice using softwares like AutoCAD for mechanical engineering and the software licensing isn't included in this repo. You have all the formulas, textbook pdf knowledge, and roots to expand on your personal knowledge graph but don't assume this will *literally* make you a faster of all subjects in each field.
+
 ## How to use (python version >= 3.8)
 
 **Linux / MacOS**
