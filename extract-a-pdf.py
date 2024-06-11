@@ -12,6 +12,7 @@ def extract_text_from_pdf(pdf_path):
         print(f"Failed to extract text from {pdf_path}: {e}")
     return text
 
+
 def save_text_to_file(text, output_path):
     """Save extracted text to a text file."""
     try:
@@ -19,6 +20,7 @@ def save_text_to_file(text, output_path):
             file.write(text)
     except Exception as e:
         print(f"Failed to write to {output_path}: {e}")
+
 
 def process_directory(directory):
     """Process all PDF files in the directory recursively."""

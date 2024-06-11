@@ -9,6 +9,8 @@ import os
 # Initialize WebDriver
 driver = webdriver.Chrome()
 first_n_results = 3
+download_time_limit = 30 # maximum 30 secs per pdf download to avoid throttled (anti-scraper) sites and speed up the scraping process:w
+
 
 def init_directories(topics):
     for topic in topics:
@@ -74,8 +76,12 @@ for topic in topics:
                     local_path = f"topics/{topic}/{subtopic}/{os.path.basename(href)}"
                     if not os.path.exists(local_path):
                         print(f"Downloading PDF from: {href}")
-                        subprocess.run(['wget', '--tries=1', '-nc', '-P', f"topics/{topic}/{subtopic}", href])
-                        time.sleep(1)  # Small pause to prevent rapid-fire requests
+                        try:
+                            subprocess.run(['wget', '--tries=1', '-nc', '-P', f"topics/{topic}/{subtopic}", href], timeout=download_time_limit)
+                        except subprocess.TimeoutExpired:
+                            print('Time expired...starting next download')
+
+                            time.sleep(1)  # Small pause to prevent rapid-fire requests
 
 driver.quit()
 
